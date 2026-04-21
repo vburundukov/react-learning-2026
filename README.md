@@ -1,16 +1,79 @@
-# React + Vite
+# react-learning-2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Учебный React-проект на 2026 год.
 
-Currently, two official plugins are available:
+Цель репозитория - пройти путь от базового понимания HTML, CSS и JavaScript до уверенной разработки React-приложений с компонентами, состоянием, роутингом, запросами к API, тестами и деплоем.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Главная цель на 15 недель
 
-## React Compiler
+За 15 недель освоить современный React на уровне, достаточном для самостоятельной разработки учебного и небольшого прикладного frontend-проекта.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+К концу маршрута я хочу уметь:
 
-## Expanding the ESLint configuration
+- создавать React-приложения через Vite;
+- писать компоненты и понимать их ответственность;
+- работать с props, state, hooks и формами;
+- строить страницы и навигацию через React Router;
+- получать и отображать данные из API;
+- обрабатывать состояния загрузки, ошибки и пустые данные;
+- использовать Git для ежедневной работы;
+- читать ошибки терминала и npm без паники;
+- собрать небольшой проект, который можно показать в портфолио.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Стартовый уровень
+
+- JavaScript: 2/10
+- CSS: 3/10
+- Git: 1/10
+- npm и терминал: 2/10
+- React: 0/10
+
+## Стек
+
+- React
+- Vite
+- JavaScript
+- CSS
+- npm
+- Git и GitHub
+
+Позже в проект могут добавиться:
+
+- React Router
+- Redux Toolkit или другой инструмент управления состоянием
+- TypeScript
+- Vitest
+- Playwright
+- инструменты деплоя
+
+## Правила обучения
+
+- Каждый учебный день должен заканчиваться маленьким измеримым результатом.
+- После теории нужно сразу писать код.
+- Любой добавленный код нужно уметь объяснить простыми словами.
+- Ошибки не пропускать, а записывать и разбирать.
+- Регулярно вести `learning-journal.md` в соседней папке `react-roadmap`.
+
+## Ближайшие шаги
+
+1. Разобраться, что такое SPA и чем она отличается от обычного многостраничного сайта.
+2. Изучить структуру Vite-проекта: `index.html`, `src/main.jsx`, `src/App.jsx`, `src/index.css`.
+3. Изменить стартовую страницу проекта.
+4. Сделать первый простой экран через JSX.
+5. Закоммитить изменения.
+
+## Как запустить проект
+
+Установить зависимости:
+
+```bash
+npm.cmd install
+```
+
+Запустить dev server:
+
+```bash
+npm.cmd run dev
+```
+
+Если обычная команда `npm` не работает в PowerShell из-за политики выполнения скриптов, можно использовать `npm.cmd`.
